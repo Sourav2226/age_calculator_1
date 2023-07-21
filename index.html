@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- main div -->
+    <div class="container">
+      <!-- input div -->
+      <div class="input">
+        <div class="day">
+          <h2>DAY</h2>
+          <input type="number" placeholder="DD" class="input_box"  min="1" max="31" />
+        </div>
+        <div class="month">
+          <h2>MONTH</h2>
+          <input type="number" placeholder="MM" class="input_box" />
+        </div>
+        <div class="year">
+          <h2>YEAR</h2>
+          <input type="number" placeholder="YYYY" class="input_box" />
+        </div>
+      </div>
+<hr style="width:90%;margin: auto;",>
+<!-- down arrow -->
+<img src="icon-arrow.svg" class="icon-arrow">
+
+      <!-- output div -->
+      <div class="output">
+        <h1 class="bold">
+          <div class="year1"> --<span style="color:black;">  years</span></div>
+          
+          <div class="month1"> -- <span style="color:black;"> months</span></div>
+          <div class="day1"> -- <span style="color:black;">days</span> </div>
+        </h1>
+      </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
